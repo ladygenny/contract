@@ -21,6 +21,8 @@ if (empty($errors)) {
   // submit database
 
 
+
+
     $sql = "INSERT INTO fashion_contract ";
     $sql .= "(name,email,phone_number,address,city,state,design)";
     $sql .= "VALUES (";

@@ -1,13 +1,8 @@
 <?php 
 require_once('../../private/initialize.php');
 
-$sql =" UPDATE TABLE"
-$contacts = set col1 = 'mummy',col2= 'daddy'
- $sql = WHERE id = 1;
-
 
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -50,8 +45,8 @@ $contacts = set col1 = 'mummy',col2= 'daddy'
         <td><?php echo $contact['time']?></td>
 
         <td><a class="action" href="<?php echo './show_contact.php?id=' . $contact['id'] ;?>">CLICK TO VIEW</a></td>
-        <td>Update</td>
-        <td>Delete</td>
+        <td><a class="action" href="<?php echo './show_contact.php?id=' . $contact['id'] ;?>">click to Update</a></td>
+        <td><a class="action" href="<?php echo './show_contact.php?id=' . $contact['id'] ;?>">click to Delete</a></td>
 
 
     </tr>
